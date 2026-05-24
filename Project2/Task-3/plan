@@ -1,0 +1,29 @@
+START
+ask user for what type of math they want to do
+store users input
+ask the user for first number
+store the first number
+ask the user for second number
+store the second number
+if users input is +
+    add first and second number
+    store as number three
+    output number three
+if users input is -
+    subtract the first number from the second number
+    store as number three
+    output number three
+if users input is *
+    multiply number one by number two
+    store as number three
+    output number three
+if users input is /
+    divide number one by number two
+    store as number three
+    output number three
+if users input is !
+    close program
+else
+    output error incorrect input
+repeat from step 2 until user enters !
+END
